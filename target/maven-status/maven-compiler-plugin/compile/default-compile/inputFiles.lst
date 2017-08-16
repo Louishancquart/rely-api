@@ -1,0 +1,11 @@
+/Users/ordi-famille/workspace/rely-api/src/main/java/com/relytube/controller/MemberController.java
+/Users/ordi-famille/workspace/rely-api/src/main/java/com/relytube/model/MediaReview.java
+/Users/ordi-famille/workspace/rely-api/src/main/java/com/relytube/model/Member.java
+/Users/ordi-famille/workspace/rely-api/src/main/java/com/relytube/rest/JaxRsActivator.java
+/Users/ordi-famille/workspace/rely-api/src/main/java/com/relytube/rest/MemberResourceRESTService.java
+/Users/ordi-famille/workspace/rely-api/src/main/java/com/relytube/data/MemberListProducer.java
+/Users/ordi-famille/workspace/rely-api/src/main/java/com/relytube/data/MemberRepository.java
+/Users/ordi-famille/workspace/rely-api/src/main/java/com/relytube/model/Review.java
+/Users/ordi-famille/workspace/rely-api/src/main/java/com/relytube/util/Resources.java
+/Users/ordi-famille/workspace/rely-api/src/main/java/com/relytube/service/MemberRegistration.java
+/Users/ordi-famille/workspace/rely-api/src/main/java/com/relytube/rest/ReviewService.java
