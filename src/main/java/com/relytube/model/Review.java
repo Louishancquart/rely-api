@@ -29,7 +29,7 @@ public class Review implements Serializable {
 	private String referenceUrl;
 	
 	@Column
-	private String reviewedTimes;
+	private Long reviewedTimes;
 	
 	@Column
 	private String description;
@@ -81,11 +81,11 @@ public class Review implements Serializable {
 		this.referenceUrl = referenceUrl;
 	}
 
-	public String getReviewedTimes() {
+	public Long getReviewedTimes() {
 		return reviewedTimes;
 	}
 
-	public void setReviewedTimes(String reviewedTimes) {
+	public void setReviewedTimes(Long reviewedTimes) {
 		this.reviewedTimes = reviewedTimes;
 	}
 	
@@ -102,8 +102,7 @@ public class Review implements Serializable {
 			result += ", mediaUrl: " + reviewedMediaUrl;
 		if (referenceUrl != null && !referenceUrl.trim().isEmpty())
 			result += ", referenceUrl: " + referenceUrl;
-		if (reviewedTimes != null && !reviewedTimes.trim().isEmpty())
-			result += ", reviewedTimes: " + reviewedTimes;
+		
 		return result;
 	}
 	

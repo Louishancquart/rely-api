@@ -1,3 +1,4 @@
+com/relytube/data/ReviewRepository.class
 com/relytube/rest/MemberResourceRESTService.class
 com/relytube/model/Review.class
 com/relytube/service/MemberRegistration.class
@@ -7,7 +8,9 @@ com/relytube/rest/JaxRsActivator.class
 com/relytube/model/MediaReview.class
 com/relytube/controller/MemberController.class
 com/relytube/model/Member.class
+com/relytube/rest/ReviewRESTService.class
 com/relytube/util/Resources.class
 com/relytube/model/MediaReview_.class
 com/relytube/model/Member_.class
+com/relytube/service/ReviewRegistration.class
 com/relytube/model/Review_.class

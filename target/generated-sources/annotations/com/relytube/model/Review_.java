@@ -9,7 +9,7 @@ import javax.persistence.metamodel.StaticMetamodel;
 public abstract class Review_ {
 
 	public static volatile SingularAttribute<Review, String> reviewedMediaUrl;
-	public static volatile SingularAttribute<Review, String> reviewedTimes;
+	public static volatile SingularAttribute<Review, Long> reviewedTimes;
 	public static volatile SingularAttribute<Review, String> description;
 	public static volatile SingularAttribute<Review, Long> id;
 	public static volatile SingularAttribute<Review, String> type;

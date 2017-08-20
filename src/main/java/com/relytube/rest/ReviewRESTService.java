@@ -86,14 +86,13 @@ public class ReviewRESTService {
 	
 	
 	
-	
+
 	/**
 	 * create a review in the database
 	 * @param review
 	 * @return response with 200 ok
 	 */
 	@POST
-	@Path("{url}")
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response createReview(Review review) {
